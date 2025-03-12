@@ -1,0 +1,10 @@
+C:\Users\Kotsu\OneDrive\Документы\1_Учебная\Прокты в Visual\Работа с Git\Rabota_s_Git\Reh_1\Reh_1\bin\Debug\Reh_1.exe.config
+C:\Users\Kotsu\OneDrive\Документы\1_Учебная\Прокты в Visual\Работа с Git\Rabota_s_Git\Reh_1\Reh_1\bin\Debug\Reh_1.exe
+C:\Users\Kotsu\OneDrive\Документы\1_Учебная\Прокты в Visual\Работа с Git\Rabota_s_Git\Reh_1\Reh_1\bin\Debug\Reh_1.pdb
+C:\Users\Kotsu\OneDrive\Документы\1_Учебная\Прокты в Visual\Работа с Git\Rabota_s_Git\Reh_1\Reh_1\obj\Debug\Reh_1.csproj.AssemblyReference.cache
+C:\Users\Kotsu\OneDrive\Документы\1_Учебная\Прокты в Visual\Работа с Git\Rabota_s_Git\Reh_1\Reh_1\obj\Debug\Reh_1.Form1.resources
+C:\Users\Kotsu\OneDrive\Документы\1_Учебная\Прокты в Visual\Работа с Git\Rabota_s_Git\Reh_1\Reh_1\obj\Debug\Reh_1.Properties.Resources.resources
+C:\Users\Kotsu\OneDrive\Документы\1_Учебная\Прокты в Visual\Работа с Git\Rabota_s_Git\Reh_1\Reh_1\obj\Debug\Reh_1.csproj.GenerateResource.cache
+C:\Users\Kotsu\OneDrive\Документы\1_Учебная\Прокты в Visual\Работа с Git\Rabota_s_Git\Reh_1\Reh_1\obj\Debug\Reh_1.csproj.CoreCompileInputs.cache
+C:\Users\Kotsu\OneDrive\Документы\1_Учебная\Прокты в Visual\Работа с Git\Rabota_s_Git\Reh_1\Reh_1\obj\Debug\Reh_1.exe
+C:\Users\Kotsu\OneDrive\Документы\1_Учебная\Прокты в Visual\Работа с Git\Rabota_s_Git\Reh_1\Reh_1\obj\Debug\Reh_1.pdb
