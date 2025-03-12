@@ -46,5 +46,58 @@ namespace Reh_1
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (richTextBox1.Text.Trim().Count() != 0)
+            {
+                string tex = richTextBox1.Text;
+                int k = 0;
+                int x = 0;
+                foreach (char s in tex)
+                {
+
+                    if (s.ToString() == "\n")
+                    {
+                        tex = tex.Replace(s.ToString(), "");
+                        k++;
+                    }
+                }
+                richTextBox2.Text = richTextBox2.Text + $"Перевод строки - {k}\n";
+                k = 0;
+
+                foreach (char s in tex)
+                {
+
+                    if (s.ToString() == " ")
+                    {
+                        tex = tex.Replace(s.ToString(), "");
+                        k++;
+                    }
+                }
+                richTextBox2.Text = richTextBox2.Text + $"Пробелы - {k}\n";
+
+                while (tex.Length > 0)
+                {
+                    k = 0;
+                    char c = tex[0];
+                    foreach (char s in tex)
+                    {
+                        x = x + 1;
+                        if (c == s)
+                        {
+                            k++;
+                        }
+                    }
+                    tex = tex.Replace(c.ToString(), "");
+                    richTextBox1.Text = tex;
+                    richTextBox2.Text = richTextBox2.Text + $"{c} - {k}\n";
+                }
+            }
+            else
+            {
+                MessageBox.Show($"Выбирете файл");
+            }
+        }
     }
 }
