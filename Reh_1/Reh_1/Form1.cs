@@ -99,5 +99,20 @@ namespace Reh_1
                 MessageBox.Show($"Выбирете файл");
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (richTextBox2.Text.Count() != 0)
+            {
+                StreamWriter f = new StreamWriter("Out.txt", false);
+                f.WriteLine(richTextBox2.Text);
+                f.Close();
+            }
+            else
+            {
+                MessageBox.Show($"Нажмите на кнопку посчитать ");
+            }
+
+        }
     }
 }
