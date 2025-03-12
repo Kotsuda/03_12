@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Reh_1
 {
@@ -26,6 +27,24 @@ namespace Reh_1
             OpenFileDialog dialog = new OpenFileDialog();
             dialog.ShowDialog();
             textBox1.Text = dialog.FileName;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text.Trim() == "")
+            {
+                MessageBox.Show("Выберите файл");
+            }
+            else
+            {
+
+                string[] lines = File.ReadAllLines(textBox1.Text);
+                foreach (string s in lines)
+                {
+                    richTextBox1.Text += s + "\n";
+
+                }
+            }
         }
     }
 }
